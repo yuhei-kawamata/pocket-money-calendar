@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: #fffde7;
+    font-family:
+        "Zen Maru Gothic",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        Yawagishi,
+        sans-serif;
+    font-weight: 500;
+}
+
+.header__area {
+    background-color: #ff9800;
+    height: 60px;
+    align-content: center;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1230px;
+    margin: 0 auto;
+    position: relative; /* ハンバーガーメニューが出てくる位置を設定 */
+}
+
+.header__logo {
+    text-decoration: none;
+    color: #fffde7;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* ロゴを中央に表示 */
+}
+
+.drawer-checkbox {
+    display: none;
+}
+
+.drawer-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 10;
+    margin-left: auto;
+}
+
+.drawer-icon span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #fffde7;
+    border-radius: 2px;
+    transition: all 0.3s ease; /* アニメーションをつける */
+}
+
+/* --- 開閉するメニューエリア --- */
+.drawer-nav {
+    position: absolute;
+    top: 130%; /* ヘッダーの直下に配置（微修正可能） */
+    right: 0;
+    width: 15%;
+    background-color: #444;
+    /* 初期状態は非表示（上に隠す、あるいはopacity: 0にする） */
+    display: none;
+    text-align: center;
+}
+
+.drawer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.drawer-menu form {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+}
+
+.drawer-menu li a {
+    /* レイアウト・位置調整 */
+    display: block !important;
+    width: 100% !important;
+    padding: 15px 20px;
+    text-align: center; /* 文字を完全中央揃え */
+    box-sizing: border-box;
+
+    /* 見た目・フォントの統一 */
+    color: #fffde7; /* 文字色 */
+    text-decoration: none; /* 下線を消す */
+    font: inherit; /* 親要素のフォント・サイズを完全継承 */
+
+    /* ボタン特有のスタイルをリセット */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ===============================================
+    チェックボックスがON（:checked）のときのスタイル
+=============================================== */
+
+/* 1. メニューを表示する */
+.drawer-checkbox:checked ~ .drawer-nav {
+    display: block;
+}
+
+/* 2. アイコンを「×」に変形させるアニメーション */
+.drawer-checkbox:checked ~ .drawer-icon span:nth-child(1) {
+    transform: translateY(9.5px) rotate(45deg);
+}
+
+.drawer-checkbox:checked ~ .drawer-icon span:nth-child(2) {
+    opacity: 0; /* 真ん中の線を消す */
+}
+
+.drawer-checkbox:checked ~ .drawer-icon span:nth-child(3) {
+    transform: translateY(-9.5px) rotate(-45deg);
+}
+
+/* フラッシュメッセージ */
+.alert__success__area {
+    border-color: #badbcc;
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.alert__success {
+    margin: 0 auto;
+    padding: 10px 30px;
+    max-width: 1230px;
+}
+
+.alert__danger__area {
+    border-color: #f5c2c7;
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.alert__danger {
+    margin: 0 auto;
+    padding: 10px 30px;
+    max-width: 1230px;
+}
+
+@media (max-width: 768px) {
+    .header__logo {
+        font-size: 21px;
+    }
+
+    .drawer-icon {
+        margin-right: 15px;
+    }
+
+    .drawer-nav {
+        width: 40%;
+    }
+}

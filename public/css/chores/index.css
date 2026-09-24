@@ -1,0 +1,284 @@
+button {
+    border: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.error__massage__area {
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.form__error {
+    display: block;
+    margin-top: 4px;
+    color: #ef4444;
+    font-size: 0.875rem;
+}
+
+.chore__area {
+    margin: 40px auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.chore__registration__area,
+.chore__index__area {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #fffde7;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.chore__registration__title,
+.chore__index__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* ----------------------------------
+    登録フォーム（PC表示）
+---------------------------------- */
+.chore__registration__form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.chore__registration__form input {
+    height: 40px;
+    flex: 1;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.chore__registration__form button {
+    height: 40px;
+    padding: 0 24px;
+    background-color: #ff9800;
+    color: #fff;
+    white-space: nowrap;
+}
+
+/* ----------------------------------
+    一覧テーブル（PC表示）
+---------------------------------- */
+.chore__index__table {
+    width: 100%;
+}
+
+.chore__header,
+.chore__row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.chore__header {
+    font-weight: bold;
+    color: #666;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.chore__row:hover {
+    background-color: #fafafa;
+}
+
+.chore__form-update {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.col__name {
+    width: 40%;
+}
+
+.col__price {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.col__btn {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.edit__button {
+    background-color: #0288d1;
+    color: #fff;
+}
+
+.delete__button {
+    background-color: #e53935;
+    color: #fff;
+}
+
+/* 入力欄の見た目 */
+.chore__index__table input {
+    height: 36px;
+    background-color: #fffde7;
+    border: 1px solid #ffe082;
+    border-radius: 6px;
+    padding: 0 8px;
+    font-size: 16px;
+}
+
+.col__name input {
+    width: 80%;
+}
+
+.col__price input {
+    width: 80px;
+    margin-right: 6px;
+    text-align: right;
+}
+
+.mobile__unit {
+    display: none;
+}
+
+/* ----------------------------------
+    スマホ表示 (768px以下)
+---------------------------------- */
+@media (max-width: 768px) {
+    .chore__area {
+        margin: 20px auto;
+        width: 95%;
+    }
+
+    .error__massage__area {
+        padding-left: 16px;
+    }
+
+    .chore__registration__area,
+    .chore__index__area {
+        padding: 16px;
+        padding-top: 0;
+    }
+
+    .chore__registration__title,
+    .chore__index__title {
+        font-size: 20px;
+    }
+
+    /* 登録フォーム：縦並び化 */
+    .chore__registration__form {
+        flex-direction: column;
+        gap: 12px;
+        height: 120px;
+    }
+
+    .chore__registration__form input,
+    .chore__registration__form button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* テーブルヘッダー非表示 */
+    .chore__header {
+        display: none;
+    }
+
+    /* 一覧行：Flexboxで2列構造（左：フォーム入力 / 右：編集・削除ボタン） */
+    .chore__row {
+        height: auto; /* 高さを自動調整 */
+        padding: 12px 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* 更新フォーム（左側） */
+    .chore__form-update {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        width: 65%;
+        flex: none;
+    }
+
+    .col__name,
+    .col__price {
+        width: 100%;
+        text-align: left;
+    }
+
+    .col__name input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .col__price input {
+        width: 70px;
+    }
+
+    /* 「/ 回」テキストを表示 */
+    .mobile__unit {
+        display: inline;
+        font-size: 14px;
+        color: #666;
+        margin-left: 4px;
+    }
+
+    /* 編集ボタン（更新フォーム内） */
+    .chore__form-update .col__btn {
+        width: 100%;
+    }
+
+    /* ボタンエリア（右側縦並び） */
+    .chore__row .col__btn--delete {
+        width: auto;
+    }
+
+    /* ボタン群の親要素の位置調整 */
+    .col__btn--edit,
+    .col__btn--delete {
+        width: 100%;
+    }
+
+    /* 編集と削除を右側に縦並びで配置するための共通スタイル */
+    .chore__row {
+        position: relative;
+    }
+
+    .chore__form-update .col__btn--edit {
+        position: absolute;
+        right: 0;
+        top: 12px;
+        width: auto;
+    }
+
+    .col__btn--delete {
+        position: absolute;
+        right: 0;
+        top: 52px;
+        width: auto;
+    }
+
+    .edit__button,
+    .delete__button {
+        width: 75px;
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+}

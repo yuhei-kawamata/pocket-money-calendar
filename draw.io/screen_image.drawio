@@ -1,0 +1,352 @@
+<mxfile host="65bd71144e">
+    <diagram id="kl7V1G2Zb6scqvWBMHvY" name="ページ1">
+        <mxGraphModel dx="676" dy="1455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="97" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="119" y="1040" width="680" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="642" width="680" height="308" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="481" y="750" width="169" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="572" width="680" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="20" width="680" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ロゴ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="37" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=none;html=1;strokeColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="740" y="40" as="sourcePoint"/>
+                        <mxPoint x="780" y="40" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=none;html=1;strokeColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="739" y="53" as="sourcePoint"/>
+                        <mxPoint x="779" y="53" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=none;html=1;strokeColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="740" y="67" as="sourcePoint"/>
+                        <mxPoint x="780" y="67" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="89" width="680" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;トップページ&lt;/font&gt;&lt;/div&gt;ダッシュボード&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;お手伝い管理画面&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="679" y="80" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="2026年9月" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="407" y="104" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="前月" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="307" y="104" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="次月" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="104" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font color=&quot;#ff3333&quot;&gt;日&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="183" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="月" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="263" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="火" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="343" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="水" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="木" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="503" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="金" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font color=&quot;#0000ff&quot;&gt;土&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="663" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font color=&quot;#0000ff&quot;&gt;5&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="663" y="220" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="4&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="220" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="3&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="503" y="220" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="2&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="220" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="343" y="220" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="263" y="220" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="183" y="220" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font color=&quot;#ff3333&quot;&gt;6&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="183" y="270" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;font color=&quot;#ff3333&quot;&gt;13&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;20円&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="183" y="320" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font color=&quot;#ff3333&quot;&gt;20&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="183" y="370" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font color=&quot;#ff3333&quot;&gt;27&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="183" y="420" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="7&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="263" y="270" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="8&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="343" y="270" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="9&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="270" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="10&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="503" y="270" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="11&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="270" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font color=&quot;#0000ff&quot;&gt;1&lt;/font&gt;2&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="663" y="270" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="14&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;120円&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="263" y="320" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="15&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;20円&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="343" y="320" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="16&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="320" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="17&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="503" y="320" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="18&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="320" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;font color=&quot;#0000ff&quot;&gt;19&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="663" y="320" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font color=&quot;#ff3333&quot;&gt;21&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="263" y="370" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;font color=&quot;#ff3333&quot;&gt;22&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="343" y="370" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;font color=&quot;#ff3333&quot;&gt;23&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="370" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="24&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="503" y="370" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="25&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="370" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;font color=&quot;#0000ff&quot;&gt;26&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="663" y="370" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="28&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="263" y="420" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="29&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="343" y="420" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="30&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="420" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="503" y="420" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="420" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="663" y="420" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="今月：〇〇円" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="307" y="150" width="113" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="累計：〇〇円" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="150" width="113" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="30" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="420" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="ロゴ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="139" y="587" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="endArrow=none;html=1;strokeColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="738" y="603" as="sourcePoint"/>
+                        <mxPoint x="778" y="603" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=none;html=1;strokeColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="739" y="590" as="sourcePoint"/>
+                        <mxPoint x="779" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="" style="endArrow=none;html=1;strokeColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="739" y="617" as="sourcePoint"/>
+                        <mxPoint x="779" y="617" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="お手伝いの内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="209" y="720" width="151" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="金額（円／回）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="720" width="121" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="〇〇・・・&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;〇〇・・・&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;〇〇・・・&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="209" y="750" width="151" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="20円&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;30円&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;50円&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="750" width="121" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;font color=&quot;#ffffff&quot;&gt;編集&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
+                    <mxGeometry x="512" y="760" width="48" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&lt;font color=&quot;#ffffff&quot;&gt;削除&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="760" width="48" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;font color=&quot;#ffffff&quot;&gt;編集&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
+                    <mxGeometry x="512" y="790" width="48" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;font color=&quot;#ffffff&quot;&gt;削除&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="790" width="48" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="&lt;font color=&quot;#ffffff&quot;&gt;編集&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
+                    <mxGeometry x="512" y="820" width="48" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="&lt;font color=&quot;#ffffff&quot;&gt;削除&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="820" width="48" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="481" y="720" width="169" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="新規登録" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="631" y="670" width="87" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="743" y="670" width="177" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="お手伝いの内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="771.5" y="705" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="1回あたりの金額" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="771.5" y="749" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="登録" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="800" width="57" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="キャンセル" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="841.5" y="800" width="68.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="714" y="693.89" as="sourcePoint"/>
+                        <mxPoint x="764" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="お手伝いの内容管理画面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="525" width="160" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="トップページ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="102" y="-30" width="108" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="ロゴ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="138" y="1055" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="endArrow=none;html=1;strokeColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="738" y="1058" as="sourcePoint"/>
+                        <mxPoint x="778" y="1058" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="" style="endArrow=none;html=1;strokeColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="737" y="1071" as="sourcePoint"/>
+                        <mxPoint x="777" y="1071" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="" style="endArrow=none;html=1;strokeColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="738" y="1085" as="sourcePoint"/>
+                        <mxPoint x="778" y="1085" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="119" y="1110" width="681" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="226" y="1280" width="37" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="307" y="1320" width="34" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="389" y="1350" width="34" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="469" y="1240" width="34" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="1320" width="34" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="1280" width="34" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="集計期間" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="1140" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="6か月" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="1140" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="1か月&lt;div&gt;3か月&lt;/div&gt;&lt;div&gt;6か月&lt;/div&gt;&lt;div&gt;1年&lt;/div&gt;&lt;div&gt;全期間&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="1169" width="70" height="91" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="2026年&lt;div&gt;4月&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="208" y="1420" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="2026年&lt;div&gt;5月&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="1420" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="2026年&lt;div&gt;6月&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="371" y="1420" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="2026年&lt;div&gt;7月&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="451" y="1420" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="2026年&lt;div&gt;8月&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="542" y="1420" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="2026年&lt;div&gt;9月&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="632" y="1420" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="ダッシュボード" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="118" y="1000" width="160" height="35" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
