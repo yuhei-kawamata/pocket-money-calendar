@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #fffde7;
+    font-family:
+        "Zen Maru Gothic",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        Yawagishi,
+        sans-serif;
+    font-weight: 500;
+}
+
+.login {
+    margin: 50px auto 0;
+    max-width: 1230px;
+    display: flex;
+}
+
+.login__area {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.login__title {
+    margin: 40px auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login__input__area {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.login__input__area:nth-child(5) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.input__area {
+    height: 30px;
+}
+
+.alert__danger {
+    color: #e53935;
+}
+
+.login__button {
+    margin-top: 20px;
+    font-size: 16px;
+    height: 40px;
+    color: #fffde7;
+    background-color: #ff9800;
+    border: none;
+}
+
+.link__register {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .login__area {
+        width: 70%;
+    }
+}

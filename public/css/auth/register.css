@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #fffde7;
+    font-family:
+        "Zen Maru Gothic",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        Yawagishi,
+        sans-serif;
+    font-weight: 500;
+}
+
+.register {
+    margin: 0 auto;
+    max-width: 1230px;
+    display: flex;
+}
+
+.register__area {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.register__title {
+    margin: 40px auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.register__input__area {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.input__area {
+    height: 30px;
+}
+
+.input__area__checkbox {
+    height: 30px;
+    margin-right: auto;
+    transform: scale(1.5);
+}
+
+.register__button {
+    height: 40px;
+    color: #fffde7;
+    background-color: #ff9800;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.link__login {
+    text-align: center;
+}
+
+.alert__danger {
+    color: #e53935;
+}
+
+@media (max-width: 768px) {
+    .register__area {
+        width: 70%;
+    }
+}
