@@ -4,6 +4,12 @@ use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\ChoreController;
 use Illuminate\Support\Facades\Route;
 
+// Topページ(/)にアクセスしたときに、/calendarsにリダイレクトさせるための設定
+// デプロイした際のアクセス先が'/'であり、直接'/calendars'にはアクセスできない
+Route::get('/', function () {
+    return redirect()->route('calendars.index');
+});
+
 Route::middleware('auth')->group(function () {
 
     Route::get('/calendars', [CalendarController::class, 'index'])->name('calendars.index');
