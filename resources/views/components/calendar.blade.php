@@ -32,6 +32,9 @@ new class extends Component
         } else {
             $this->currentMonth = Carbon::now()->format('Y-m');
         }
+
+        // データが取得できているかログでテスト
+        Log::info('Current Month: ' . $this->currentMonth);
     }
 
     // 今月の定義
