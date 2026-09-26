@@ -114,7 +114,7 @@ new class extends Component
                 ->get();
         }
 
-        return view('components.⚡registration-chore', [
+        return view('components.registration-chore', [
             'chores' => Chore::all(),
             'calendars' => $registeredCalendars,
         ]);
