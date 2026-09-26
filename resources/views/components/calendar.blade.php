@@ -73,9 +73,7 @@ new class extends Component
     {
         $targetDate = Carbon::parse($this->currentMonth);
         $today = Carbon::today();
-
-        // テストのため一時的にコメントアウト
-        // $holidays = Yasumi::create('Japan', $targetDate->year, 'ja_JP');
+        $holidays = Yasumi::create('Japan', $targetDate->year, 'ja_JP');
 
         // 1日の曜日（0:日～6:土）と当月の総日数を計算
         $firstDayOfWeek = $targetDate->copy()->firstOfMonth()->dayOfWeek;
@@ -115,7 +113,7 @@ new class extends Component
             'lastDayOfMonth' => $lastDayOfMonth,
             'targetDate' => $targetDate,
             'today' => $today,
-            // 'holidays' => $holidays,
+            'holidays' => $holidays,
             'dailyTotals' => $dailyTotals,
             'monthlyTotals' => $monthlyTotals,
             'grandTotals' => $grandTotals,
@@ -183,9 +181,7 @@ new class extends Component
 
                                 // ループ中の日付が「今日」かどうか判定
                                 $isToday = ($today->format('Y-m-d') === $dateString);
-
-                                $isHoliday = false;
-                                // $isHoliday = $holidays->isHoliday($currentDate); // 祝日判定
+                                $isHoliday = $holidays->isHoliday($currentDate); // 祝日判定
 
                                 $isSunday = ($j === 0); // 日曜日判定
                                 $isSaturday = ($j === 6); // 土曜日判定
