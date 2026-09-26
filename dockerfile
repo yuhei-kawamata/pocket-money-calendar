@@ -12,11 +12,15 @@ WORKDIR /var/www
 
 COPY . .
 
-# PHP の依存関係インストール
-RUN composer install --no-dev --optimize-autoloader
+# メモリ制限を解除し、軽量化して Composer インストールを実行
+ENV COMPOSER_MEMORY_LIMIT=-1
+RUN composer install --no-dev --no-scripts
 
 # Node.js（CSS/JS）の依存関係インストールとビルド
 RUN npm install && npm run build
 
+# アセットのパブリッシュ（ビルド時に実行）
+RUN php artisan livewire:publish --assets || true
+
 EXPOSE 8000
-CMD php artisan config:cache && php artisan route:cache && php artisan view:cache && php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=8000 && livewire:publish --assets
+CMD php artisan config:cache && php artisan route:cache && php artisan view:cache && php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=8000
