@@ -14,7 +14,11 @@ COPY . .
 
 # メモリ制限を解除し、軽量化して Composer インストールを実行
 ENV COMPOSER_MEMORY_LIMIT=-1
-RUN composer install --no-dev --no-scripts
+# オートロード作成時の超高負荷処理（no-autoloader）とスクリプト実行をスキップ
+RUN composer install --no-dev --no-scripts --no-autoloader --prefer-dist
+
+# 後から軽量な標準オートロードファイルのみを生成
+RUN composer dump-autoload --no-dev
 
 # Node.js（CSS/JS）の依存関係インストールとビルド
 RUN npm install && npm run build
