@@ -20,3 +20,11 @@ Route::middleware('auth')->group(function () {
     Route::patch('/chores/{id}', [ChoreController::class, 'update'])->name('chores.update');
     Route::delete('/chores/{id}', [ChoreController::class, 'destroy'])->name('chores.destroy');
 });
+
+
+Route::get('/clear-all-cache', function () {
+    \Illuminate\Support\Facades\Artisan::call('view:clear');
+    \Illuminate\Support\Facades\Artisan::call('config:clear');
+    \Illuminate\Support\Facades\Artisan::call('cache:clear');
+    return 'All Cache Cleared!';
+});
