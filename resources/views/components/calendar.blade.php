@@ -226,6 +226,6 @@ new class extends Component
         </table>
     </div>
 
-    <livewire:registration-chore />
+    {{-- <livewire:registration-chore /> --}}
 
 </div>
