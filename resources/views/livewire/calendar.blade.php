@@ -106,7 +106,7 @@ new class extends Component
                 return $calendar->chores->sum('price');
             });
 
-        return view('components.calendar', [
+        return view('livewire.calendar', [
             'displayTitle' => $targetDate->format('Y年 n月'),
             'firstDayOfWeek' => $firstDayOfWeek,
             'daysInMonth' => $daysInMonth,
